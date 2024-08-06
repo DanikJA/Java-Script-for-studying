@@ -19,6 +19,13 @@ const number = 10;
 let isJohnHasCar = false;
 
 
+let numb = 20;
+
+if (numb == 30) {
+  console.log('yes')  
+}
+else 
+    console.log('else')
 
 
         

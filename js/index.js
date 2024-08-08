@@ -144,4 +144,24 @@ function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
 
 console.log(makeOrderMessage(2,100,50));
 console.log(makeOrderMessage(4,300,100));
-console.log(makeOrderMessage(10,70,20));
+console.log(makeOrderMessage(10, 70, 20));
+
+
+
+
+function checkAge(age) {
+  let message;
+  
+if (age >= 18){
+  message = 'You are an adult';
+}else {
+  message = 'you are a minor';
+}
+ 
+  return message;
+}
+
+console.log(checkAge(20));
+console.log(checkAge(8));
+console.log(checkAge(14));
+console.log(checkAge(38));

@@ -165,3 +165,20 @@ console.log(checkAge(20));
 console.log(checkAge(8));
 console.log(checkAge(14));
 console.log(checkAge(38));
+
+
+
+                                         // Цикли
+
+const stars = 3;
+let price;
+
+if (stars === 1) {
+  price = 3;
+} else if (stars === 2) {
+  price = 5;
+} else if(stars === 3){
+  price = 10
+}
+
+console.log(price);

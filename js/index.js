@@ -170,15 +170,110 @@ console.log(checkAge(38));
 
                                          // Цикли
 
-const stars = 3;
+const stars = 1;
 let price;
 
-if (stars === 1) {
-  price = 3;
-} else if (stars === 2) {
-  price = 5;
-} else if(stars === 3){
-  price = 10
+// if (stars === 1 || stars === 2) {
+//   price = 3;
+// } else if (stars === 3) {
+//   price = 5;
+// } else if(stars === 4){
+//   price = 10
+// }
+
+// console.log(price);
+
+switch(stars){
+  case 1:
+    price = 3;
+    break;
+  
+  case 2:
+    price = 4;
+    break;
+
+  case 3:
+    price = 5;
+    break;
 }
 
-console.log(price);
+console.log(price)
+
+
+                                    //  for
+
+// for (let i = 0; i < 10; i += 1) {
+//   console.log(i);
+// }
+
+
+// for (let i = 10; i >= 0; i -= 2){
+//   console.log(i);
+// }
+
+for (let i = 1000; i >= 950; i -= 2){
+  console.log(i);
+}
+
+
+
+
+
+// Функція checkStorage(available, ordered) перевіряє можливість оформлення замовлення і повертає повідомлення про результат. Вона оголошує два параметри, значення яких будуть задаватися під час її виклику:
+
+// available - загальна кількість товарів на складі
+// ordered - одиниць товару в замовленні
+// Використовуючи розгалуження, доповни код функції таким чином, що:
+
+// Якщо в замовленні вказане число, яке перевищує кількість товарів на складі, у змінну message записується рядок "Not enough goods in stock!".
+// В іншому випадку записується рядок "Order is processed, our manager will contact you.".
+
+
+function checkStorage(available, ordered) {
+  let message;
+  // Change code below this line
+
+  if(available >= ordered){
+    message = 'Order is processed, our manager will contact you.'
+  }else if (available < ordered){
+    message = 'Not enough goods in stock!'
+  }
+
+  // Change code above this line
+  return message;
+}
+
+console.log(checkStorage(100,50));
+console.log(checkStorage(100,130));
+console.log(checkStorage(200,20));
+console.log(checkStorage(200,150));
+console.log(checkStorage(150, 180));
+
+
+
+
+// Заміни вирази зі стандартними математичними операторами на комбінований оператор присвоєння з додаванням, відніманням, множенням і діленням.
+
+// Значення змінної a дорівнює 7
+// Використаний оператор +=
+// Значення змінної b дорівнює 6
+// Використаний оператор -=
+// Значення змінної c дорівнює 45
+// Використаний оператор *=
+// Значення змінної d дорівнює 2
+// Використаний оператор /=
+
+
+let a = 5;
+let b = 10;
+let c = 15;
+let d = 20;
+
+// Change code below this line
+a += 2;
+b -= 4;
+c *= 3;
+d /= 10;
+
+
+

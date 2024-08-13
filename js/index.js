@@ -338,9 +338,6 @@ console.log(isNumberInRange(20, 50, 76));
 
 
 
-
-
-
 function getDiscount(totalSpent) {
   const BASE_DISCOUNT = 0;
   const BRONZE_DISCOUNT = 0.02;
@@ -350,13 +347,13 @@ function getDiscount(totalSpent) {
   // Change code below this line
   
   if (totalSpent >= 50000){
-    discount =`знижка 10% ${GOLD_DISCOUNT}`
+    discount = GOLD_DISCOUNT;
   } else if(totalSpent >= 20000 && totalSpent < 50000){
-    discount =`знижка 5% ${SILVER_DISCOUNT}`
+    discount = SILVER_DISCOUNT;
   } else if(totalSpent >= 5000 && totalSpent < 20000){
-    discount =`знижка 2% ${BRONZE_DISCOUNT}`
+    discount = BRONZE_DISCOUNT;
   }else if (totalSpent < 5000){
-   discount = `знижка 0% ${BASE_DISCOUNT}`
+   discount = BASE_DISCOUNT;
   }
   
   // Change code above this line
@@ -371,4 +368,14 @@ console.log(getDiscount(1300));
 console.log(getDiscount(5000));
 console.log(getDiscount(20000));
 console.log(getDiscount(50000));
+
+
+
+
+
+
+
+
+
+
 

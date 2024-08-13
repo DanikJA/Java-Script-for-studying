@@ -374,8 +374,224 @@ console.log(getDiscount(50000));
 
 
 
+// Виконай рефакторинг рішення задачі «Склад товарів», замінивши інструкцію if...else тернарним оператором.
+
+// Оголошена функція checkStorage(available, ordered).
+// Використаний тернарний оператор.
+// Виклик checkStorage(100, 50) повертає "The order is accepted, our manager will contact you"
+// Виклик checkStorage(100, 130) повертає "Not enough goods in stock!"
+// Виклик checkStorage(200, 20) повертає "The order is accepted, our manager will contact you"
+// Виклик checkStorage(200, 150) повертає "The order is accepted, our manager will contact you"
+// Виклик checkStorage(150, 180) повертає "Not enough goods in stock!"
+
+
+function checkStorage(available, ordered) {
+  let message;
+  // Change code below this line
+
+ message = ordered > available ? "Not enough goods in stock!" :  "The order is accepted, our manager will contact you";
+
+  // Change code above this line
+  return message;
+}
+
+console.log(checkStorage(100, 50));
+console.log(checkStorage(100, 130));
+console.log(checkStorage(200, 20));
+console.log(checkStorage(200, 150));
+console.log(checkStorage(150, 180));
+
+
+
+// 2. 
+// Функція checkPassword(password) порівнює переданий їй пароль (параметр password) зі збереженим паролем адміністратора (константа ADMIN_PASSWORD) і повертає рядок з повідомленням про результат.
+
+// Використовуючи тернарний оператор, доповни функцію таким чином, що:
+
+// Якщо значення password і ADMIN_PASSWORD збігаються, присвой змінній message рядок "Access is allowed".
+// В іншому випадку, присвой message рядок "Access denied, wrong password!".
+
+
+
+
+function checkPassword(password) {
+  const ADMIN_PASSWORD = "jqueryismyjam";
+  let message;
+  // Change code below this line
+
+ message = password === ADMIN_PASSWORD ? "Access is allowed" : "Access denied, wrong password!";
+  
+  // Change code above this line
+  return message;
+}
+
+console.log(checkPassword('jqueryismyjam'));
+console.log(checkPassword('angul4r1sl1f3'));
+console.log(checkPassword('r3actsux'));
 
 
 
 
 
+
+
+// 3.
+
+
+function getSubscriptionPrice(type) {
+  let price;
+  // Change code below this line
+
+ switch (type) { // Change this line
+    case "starter" :
+      price = 0; // Change this line
+      break;
+
+    case "professional" : // Change this line
+      price = 20; // Change this line
+      break;
+
+    case "organization" :// Change this line
+      price = 50; // Change this line
+      break;
+  }
+
+  // Change code above this line
+  return price;
+}
+
+console.log(getSubscriptionPrice('professional'));
+console.log(getSubscriptionPrice('organization'));
+console.log(getSubscriptionPrice('starter'));
+
+
+
+// 4.
+
+function checkPassword(password) {
+  const ADMIN_PASSWORD = "jqueryismyjam";
+  let message;
+  // Change code below this line
+
+  switch (password){
+    case null:
+      message = "Canceled by user!";
+      break;
+
+    case ADMIN_PASSWORD:
+      message = "Welcome!"
+      break;
+
+    default: 
+      message = "Access denied, wrong password!"
+  }
+
+  // Change code above this line
+  return message;
+}
+
+console.log(checkPassword("mangohackzor"));
+console.log(checkPassword(null));
+console.log(checkPassword("polyhax"));
+console.log(checkPassword("jqueryismyjam"));
+
+
+// 5.
+
+
+function getShippingCost(country) {
+  let message;
+  let price;
+  // Change code below this line
+
+  switch(country){
+    case 'China':
+      message = "Shipping to China will cost 100 credits"
+    break;
+
+    case "Chile":
+      message = "Shipping to Chile will cost 250 credits"
+    break;
+
+    case "Australia":
+      message = "Shipping to Australia will cost 170 credits"
+      break;
+
+    case "Jamaica":
+      message = "Shipping to Jamaica will cost 120 credits"
+      break;
+
+    default: 
+      message = "Sorry, there is no delivery to your country"
+  }
+  
+  // Change code above this line
+  return message;
+}
+
+
+
+console.log(getShippingCost("Australia"));
+console.log(getShippingCost("Germany"));
+console.log(getShippingCost("China"));
+console.log(getShippingCost("Chile"));
+console.log(getShippingCost("Jamaica"));
+console.log(getShippingCost("Sweden"));
+
+
+
+// 6.
+
+function getNameLength(name) {
+  const message = `Name ${name} is ${name.length} characters long`; // Change this line
+
+  return message;
+}
+
+
+console.log(("Poly".length));
+console.log(("Harambe".length));
+console.log(("Billy".length));
+console.log(("Joe".length));
+
+
+// 7.
+
+
+
+
+function getSubstring(string, length) {
+  const substring = string.substring(0, length); // Change this line
+
+  return substring;
+}
+
+console.log(getSubstring("Hello world", 3));
+console.log(getSubstring("Hello world", 6));
+console.log(getSubstring("Hello world", 8));
+console.log(getSubstring("Hello world", 11));
+console.log(getSubstring("Hello world", 0));
+
+
+
+// 8.
+
+
+function formatMessage(message, maxLength) {
+  let result;
+  // Change code below this line
+  if(message.length <= maxLength){
+    return message;
+  } else if (message.length >= maxLength){
+    return message.slice(0,maxLength) + "...";
+  }
+  /// Change code above this line
+  return result;
+}
+
+console.log(formatMessage("Curabitur ligula sapien",16));
+console.log(formatMessage("Curabitur ligula sapien,23"));
+console.log(formatMessage("Vestibulum facilisis purus nec",20));
+console.log(formatMessage("Vestibulum facilisis purus nec",30));
+console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla",15));
+console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla",41));

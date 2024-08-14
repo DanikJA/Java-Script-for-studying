@@ -594,4 +594,55 @@ console.log(formatMessage("Curabitur ligula sapien,23"));
 console.log(formatMessage("Vestibulum facilisis purus nec",20));
 console.log(formatMessage("Vestibulum facilisis purus nec",30));
 console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla",15));
-console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla",41));
+console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41));
+
+
+
+
+// 9.
+
+function normalizeInput(input) {
+  const normalizedInput = input.toLowerCase() ; // Change this line
+
+  return normalizedInput;
+}
+
+console.log(normalizeInput('Hello world'));
+console.log(normalizeInput("This ISN'T SpaM"));
+console.log(normalizeInput("Big SALE"));
+
+
+// 10.
+
+function checkForName(fullName, name) {
+  let result = fullName.includes(name);
+  return result;
+}
+
+console.log(checkForName("Egor Kolbasov", "Egor")); // true
+console.log(checkForName("Egor Kolbasov", "egor")); // false
+console.log(checkForName("Egor Kolbasov", "egOr")); // false
+console.log(checkForName("Egor Kolbasov", "Zhenya")); // false
+console.log(checkForName("Vadim Nekrasov", "Vadim")); // true
+console.log(checkForName("Vadim Nekrasov", "vadim")); // false
+console.log(checkForName("Vadim Nekrasov", "Dima")); // false
+
+
+// 11.
+
+function checkForSpam(message) {
+  let result;
+  // Change code below this line
+   result = message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale');
+  // Change code above this line
+  return result;
+}
+
+console.log(checkForSpam("Latest technology news"));
+console.log(checkForSpam("JavaScript weekly newsletter"));
+console.log(checkForSpam("Get best sale offers now!"));
+console.log(checkForSpam("Amazing SalE, only tonight!"));
+console.log(checkForSpam("Trust me, this is not a spam message"));
+console.log(checkForSpam("Get rid of sPaM emails. Our book in on sale!"));
+console.log(checkForSpam("[SPAM] How to earn fast money?"));
+

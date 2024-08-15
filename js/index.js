@@ -577,6 +577,7 @@ console.log(getSubstring("Hello world", 0));
 // 8.
 
 
+
 function formatMessage(message, maxLength) {
   let result;
   // Change code below this line
@@ -588,6 +589,7 @@ function formatMessage(message, maxLength) {
   /// Change code above this line
   return result;
 }
+
 
 console.log(formatMessage("Curabitur ligula sapien",16));
 console.log(formatMessage("Curabitur ligula sapien,23"));

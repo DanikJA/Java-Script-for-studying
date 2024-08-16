@@ -720,21 +720,48 @@ console.log(checkStorage(150, 0));
 
 // 5.
 
-const fruits = ["apple", "plum", "pear", "orange"];
+// const fruits = ["apple", "plum", "pear", "orange"];
 
 // Change code below this line
 
-const firstElement = fruits[0];
-const secondElement = fruits[1];
-const lastElement = fruits[fruits.length -1];
+// const firstElement = fruits[0];
+// const secondElement = fruits[1];
+// const lastElement = fruits[fruits.length -1];
 
 
 
-console.log(firstElement);
-console.log(secondElement);
-console.log(lastElement);
+// console.log(firstElement);
+// console.log(secondElement);
+// console.log(lastElement);
 
 // 6.
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// Write your code under this line
+
+// fruits [1] = 'peach';
+// fruits[3] = 'banana';
+
+
+7.
+// const fruits = ["apple", "peach", "pear", "banana"];
+
+// // Change code below this line
+
+// const fruitsArrayLength = fruits.length;
+// console.log(fruitsArrayLength);
+
+
+
+8.
+const fruits = ["apple", "peach", "pear", "banana"];
+
+// Change code below this line
+
+const lastElementIndex = fruits.length -1;
+const lastElement = fruits[lastElementIndex];
+
 
 
 

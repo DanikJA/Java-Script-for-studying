@@ -713,3 +713,29 @@ console.log(checkStorage(100, 130));
 console.log(checkStorage(70, 0));
 console.log(checkStorage(200, 250));
 console.log(checkStorage(150, 0));
+
+// 4.
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// 5.
+
+const fruits = ["apple", "plum", "pear", "orange"];
+
+// Change code below this line
+
+const firstElement = fruits[0];
+const secondElement = fruits[1];
+const lastElement = fruits[fruits.length -1];
+
+
+
+console.log(firstElement);
+console.log(secondElement);
+console.log(lastElement);
+
+// 6.
+
+
+
+

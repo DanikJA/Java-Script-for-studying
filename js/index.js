@@ -789,3 +789,49 @@ return [array[0], array[array.length -1]];
 console.log(getExtremeElements([1, 2, 3, 4, 5]));
 console.log(getExtremeElements(["Earth", "Mars", "Venus"]));
 console.log(getExtremeElements(["apple", "peach", "pear", "banana"]));
+
+// 10.
+
+
+function splitMessage(message, delimiter) {
+  let words;
+  // Change code below this line
+   words = message.split(delimiter)
+  // Change code above this line
+  return words;
+}
+
+console.log(splitMessage("Mango hurries to the train"));
+console.log(splitMessage("Mango"));
+console.log(splitMessage("best_for_week"));
+
+
+11.
+// Сервісу гравірування прикрас потрібна функція, яка б автоматично рахувала ціну гравірування, залежно від кількості слів і ціни за слово.
+
+// Оголошена функція calculateEngravingPrice(message, pricePerWord). Ця функція приймає рядок, що складається зі слів, розділених лише пробілами (параметр message) та ціну гравірування одного слова (параметр pricePerWord).
+
+// Напиши тіло функції, щоб вона повертала загальну вартість гравірування усіх слів в рядку.
+
+// Оголошена функція calculateEngravingPrice(message, pricePerWord)
+// Виклик calculateEngravingPrice("JavaScript is in my blood", 10) повертає 50
+// Виклик calculateEngravingPrice("JavaScript is in my blood", 20) повертає 100
+// Виклик calculateEngravingPrice("Web-development is creative work", 40) повертає 160
+// Виклик calculateEngravingPrice("Web-development is creative work", 20) повертає 80
+
+
+function calculateEngravingPrice(message, pricePerWord) {
+   // Change code below this line
+
+ const totalPrice = pricePerWord * message.split(' ').length;
+
+return totalPrice;
+   // Change code above this line
+}
+
+
+
+console.log(calculateEngravingPrice("JavaScript is in my blood", 10));
+console.log(calculateEngravingPrice("JavaScript is in my blood", 20));
+console.log(calculateEngravingPrice("Web-development is creative work", 40));
+console.log(calculateEngravingPrice("Web-development is creative work", 20));

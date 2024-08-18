@@ -540,19 +540,19 @@ console.log(getShippingCost("Sweden"));
 
 
 
-// 6.
+// // 6.
 
-function getNameLength(name) {
-  const message = `Name ${name} is ${name.length} characters long`; // Change this line
+// function getNameLength(name) {
+//   const message = `Name ${name} is ${name.length} characters long`; // Change this line
 
-  return message;
-}
+//   return message;
+// }
 
 
-console.log(("Poly".length));
-console.log(("Harambe".length));
-console.log(("Billy".length));
-console.log(("Joe".length));
+// console.log(("Poly".length));
+// console.log(("Harambe".length));
+// console.log(("Billy".length));
+// console.log(("Joe".length));
 
 
 // 7.

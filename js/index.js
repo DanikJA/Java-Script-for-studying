@@ -889,3 +889,15 @@ console.log(slugify("How to become a JUNIOR developer in TWO WEEKS", "_" ));
 // console.log(firstTwoEls);
 // console.log(nonExtremeEls);
 // console.log(lastThreeEls);
+
+
+// 15.                                      method 'concat'
+
+
+const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+const newClients = ['Peach', 'Houston'];
+
+const allClients = oldClients.concat(newClients); // Change this line
+
+
+// 16.

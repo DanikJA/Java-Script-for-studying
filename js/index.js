@@ -855,4 +855,37 @@ console.log(makeStringFromArray(["Mango", "hurries", "to", "the", "train"], " ")
 console.log(makeStringFromArray(["top", "picks", "for", "you"], "_"));
 
 
-13.
+// 13.
+
+
+function slugify(title) {
+  // Change code below this line
+const lowerCaseTitle = title.toLowerCase();
+
+ const slug = lowerCaseTitle.split(' ')   .join("-");
+  
+return slug;
+  // Change code above this line
+}
+
+
+
+
+console.log(slugify("Arrays for begginers",  "_"));
+console.log(slugify("English for developer",  "_"));
+console.log(slugify("Ten secrets of JavaScript",  "_"));
+console.log(slugify("How to become a JUNIOR developer in TWO WEEKS", "_" ));
+
+
+// 14.
+
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2) ;
+// const nonExtremeEls = fruits.slice(1, -1);
+// const lastThreeEls = fruits.slice(-3) ;
+
+// console.log(firstTwoEls);
+// console.log(nonExtremeEls);
+// console.log(lastThreeEls);

@@ -927,5 +927,33 @@ console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0));
 
 
 
-17.
+// 17.
+
+
+const start = 3;
+const end = 7;
+
+for (let i = start; i <= end; i +=1 ) { // Change this line
+  console.log(i);
+}
+
+
+// 18.
+
+function calculateTotal(number) {
+ // Change code below this line
+let sum = 0;
+for(let i = 0; i <= number; i +=1){
+}
+ sum += i;
+
+  return sum;
+}
+
+console.log(calculateTotal(1));
+console.log(calculateTotal(6));
+console.log(calculateTotal(28));
+console.log(calculateTotal(171));
+console.log(calculateTotal(300));
+
 

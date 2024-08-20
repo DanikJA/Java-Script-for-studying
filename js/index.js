@@ -957,3 +957,30 @@ console.log(calculateTotal(171));
 console.log(calculateTotal(300));
 
 
+// 19.
+
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i += 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+// 20.
+
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+for(i = 0; i < order.length; i += 1){
+  total += order[i];
+}
+  // Change code above this line
+  return total;
+}
+
+console.log(calculateTotalPrice([12, 85, 37, 4]));
+console.log(calculateTotalPrice([164, 48, 291]));
+console.log(calculateTotalPrice([412, 371, 94, 63, 176]));
+
+
+

@@ -1215,3 +1215,25 @@ console.log(findNumber(6, 9, 4));
 console.log(findNumber(16, 35, 7));
 
 
+
+// 32.
+
+function includes(array, value) {
+  // Change code below this line
+let result = false;
+  for(const item of array){
+    if(item === value){
+       result = true;
+      break;
+    }
+  }
+  return result;
+}
+
+
+console.log(includes([1, 2, 3, 4, 5], 3));
+console.log(includes([1, 2, 3, 4, 5], 17));
+console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"));
+console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"));
+console.log(includes(["apple", "plum", "pear", "orange"], "plum"));
+console.log(includes(["apple", "plum", "pear", "orange"], "kiwi"));

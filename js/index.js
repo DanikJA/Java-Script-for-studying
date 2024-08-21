@@ -1157,3 +1157,29 @@ console.log(filterArray([12, 24, 8, 41, 76], 20));
 // const e = 8 % 6;
 
 
+// 29.
+
+function getEvenNumbers(start, end) {
+   // Change code below this line
+const result = [];
+
+  for(let i = start; i <= end; i += 1){
+    if(i % 2 === 0){
+      result.push(i);
+    }
+  }
+
+  return result;
+    // Change code above this line
+  }
+
+
+console.log(getEvenNumbers(2, 5));
+console.log(getEvenNumbers(3, 11));
+console.log(getEvenNumbers(6, 12));
+console.log(getEvenNumbers(8, 8));
+console.log(getEvenNumbers(7, 7));
+
+
+// 30
+

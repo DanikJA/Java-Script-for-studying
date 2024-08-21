@@ -943,9 +943,10 @@ for (let i = start; i <= end; i +=1 ) { // Change this line
 function calculateTotal(number) {
  // Change code below this line
 let sum = 0;
-for(let i = 0; i <= number; i +=1){
+  for (let i = 0; i <= number; i += 1){
+   sum += i;
 }
- sum += i;
+
 
   return sum;
 }
@@ -1069,7 +1070,7 @@ console.log(checkFruit('pear'));
 console.log(checkFruit('apple'));
 
 
-// 26.
+// 25.
 
 function getCommonElements(array1, array2) {
   // Change code below this line
@@ -1093,6 +1094,31 @@ console.log(getCommonElements([1, 2, 3], [10, 20, 30]));
 
 
 
+// 26.
+// const planets = ["Earth", "Mars", "Venus"];
 
-// 27.
+// for (const planet of planets) {
+//   console.log(planet);
+// }
+
+
+
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+
+  for (const orders of order) {
+    total += orders;
+  }
+
+  // Change code above this line
+  return total;
+}
+
+
+console.log(calculateTotalPrice([12, 85, 37, 4]));
+console.log(calculateTotalPrice([164, 48, 291]));
+console.log(calculateTotalPrice([412, 371, 94, 63, 176]));
+console.log(calculateTotalPrice([]));
+
 

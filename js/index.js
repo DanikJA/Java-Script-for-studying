@@ -1149,4 +1149,11 @@ console.log(filterArray([12, 24, 8, 41, 76], 20));
 
 // 28.
 
+// Change code below this line
+// const a = 3 % 3;
+// const b = 4 % 3;
+// const c = 11 % 8;
+// const d = 12 % 7;
+// const e = 8 % 6;
+
 

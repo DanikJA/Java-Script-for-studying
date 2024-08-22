@@ -1237,3 +1237,19 @@ console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter")
 console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"));
 console.log(includes(["apple", "plum", "pear", "orange"], "plum"));
 console.log(includes(["apple", "plum", "pear", "orange"], "kiwi"));
+
+
+
+
+
+
+                    //  Objects 
+                 
+                    
+const apartment = {
+imgUrl:"https://via.placeholder.com/640x480",
+descr:"Spacious apartment in the city center",
+rating: 4,
+price: 2153,
+tags: ["premium", "promoted", "top"],
+};

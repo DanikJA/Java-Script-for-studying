@@ -1,9 +1,9 @@
         //    Creating variables
 
-document.write("Hello");
- document.write("!!!");
- console.error('hello java script');
-console.warn('!!!');
+// document.write("Hello");
+//  document.write("!!!");
+//  console.error('hello java script');
+// console.warn('!!!');
  
 // let num = 5;
 // console.log(num);

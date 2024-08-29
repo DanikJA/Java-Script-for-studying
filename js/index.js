@@ -1404,7 +1404,7 @@ const aptTags = apartment.tags;
 // }
 
 
-// 8.
+ 8.
 
 // const name = "Repair Droid";
 // const price = 2500;
@@ -1420,7 +1420,7 @@ const aptTags = apartment.tags;
 
 
 
-// 9.
+ 9.
 
 
 const emailInputName = "email";
@@ -1450,4 +1450,25 @@ const credentials = {
 //   keys.push(key);
 //   values.push(apartment[key]);
 
+// }
+
+
+11.
+
+
+// const keys = [];
+// const values = [];
+// const advert = {
+//   service: "apt",
+// };
+// const apartment = Object.create(advert);
+// apartment.descr = "Spacious apartment in the city center";
+// apartment.rating = 4;
+// apartment.price = 2153;
+
+// for (const key in apartment) {
+//   if (apartment.hasOwnProperty(key)){
+//     keys.push(key);
+//   values.push(apartment[key]);
+//   }
 // }

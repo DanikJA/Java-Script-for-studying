@@ -1544,6 +1544,21 @@ console.log(countProps({ mail: "poly@mail.com", isOnline: true, score: 500 }));
 // const values = Object.values(apartment);
 // console.log(values)
 
+16.
+
+function countTotalSalary(salaries) {
+  let totalSalary = 0;
+  // Change code below this line
+   const countSalery = Object.values(salaries);
+  
+  for(const salarie of countSalery){
+  totalSalary += salarie;
+}
+  return totalSalary;
+}
+
+console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 }));
+console.log(countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 }));
 
 
-
+17.

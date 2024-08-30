@@ -1508,3 +1508,42 @@ console.log(countProps({ mail: "poly@mail.com", isOnline: true, score: 500 }));
 // for(const key of keys){
 //   values.push(apartment[key]);
 // }
+
+
+14.
+
+function countProps(object) {
+  // Change code below this line
+  let propCount = 0;
+
+const keys = Object.keys(object);
+  for(const key of keys){
+    propCount++;
+  }
+  
+
+  return propCount;
+  // Change code above this line
+}
+
+
+console.log(countProps({ name: "Mango", age: 2 }));
+console.log(countProps({ mail: "poly@mail.com", isOnline: true, score: 500 }));
+
+15.
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// // Change code below this line
+// const keys = Object.keys(apartment);
+// console.log(keys)
+
+// const values = Object.values(apartment);
+// console.log(values)
+
+
+
+

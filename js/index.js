@@ -1472,3 +1472,39 @@ const credentials = {
 //   values.push(apartment[key]);
 //   }
 // }
+
+
+12.
+
+
+function countProps(object) {
+  let propCount = 0;
+  // Change code below this line
+  for(const key in object){
+    if(object.hasOwnProperty(key)){
+      propCount++;
+    }
+}
+  // Change code above this line
+  return propCount;
+}
+
+console.log(countProps({ name: "Mango", age: 2 }));
+console.log(countProps({ mail: "poly@mail.com", isOnline: true, score: 500 }));
+
+
+// 13.
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+// // Change code below this line
+// const keys = Object.keys(apartment);
+// console.log(keys);
+
+// for(const key of keys){
+//   values.push(apartment[key]);
+// }

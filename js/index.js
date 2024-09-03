@@ -1699,3 +1699,53 @@ const meanTemperature = (yesterday + today + tomorrow) / 3;
 // const meanTemperature = (yesterday + today + tomorrow) / 3;
 
 
+23.
+
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+
+
+// const {
+//   yesterday: highYesterday,
+//   today: highToday,
+//   tomorrow: highTomorrow,
+//   icon: highIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",} = highTemperatures;
+
+// const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
+
+
+// 24.
+
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+
+// for (const {hex, rgb} of colors) {
+
+//   hexColors.push(hex);
+//   rgbColors.push(rgb);
+// }
+
+
+// 25.// Change code below this line
+function calculateMeanTemperature(forecast) {
+ 
+const {today: {low: todayLow, high: todayHigh},
+tomorrow: {low: tomorrowLow, high: tomorrowHigh}} = forecast;
+  
+  // Change code above this line
+  return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+}
+
+
+// 26.

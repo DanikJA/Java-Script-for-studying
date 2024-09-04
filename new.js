@@ -93,3 +93,10 @@ bookShelf.updateBook("Sands of dune", "Dune");
 //  }   
 // }
 // }
+
+// 6.
+
+const atTheOldToad = {
+  // Change code below this line
+potions: [ ] 
+};

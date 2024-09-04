@@ -96,7 +96,41 @@ bookShelf.updateBook("Sands of dune", "Dune");
 
 // 6.
 
+// const atTheOldToad = {
+//   // Change code below this line
+// potions: [ ] 
+// };
+
+
+// 6.
+
 const atTheOldToad = {
-  // Change code below this line
-potions: [ ] 
+  potions: ["Speed potion", "Dragon breath", "Stone skin"],
+  addPotion(potionName) {
+    // Change code below this line
+
+ this.potions.push(potionName);
+
+    // Change code above this line
+  },
 };
+
+
+// 7.
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   updatePotionName(oldName, newName) {
+//     // Change code below this line
+//  if(this.potions.includes(oldname)){
+//    const index = this.potions.indexOf(oldname)
+//    this.potion[index] = newName;
+//  }
+
+//     // Change code above this line
+//   },
+// };
+
+
+
+// 8.

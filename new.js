@@ -38,3 +38,46 @@ console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
 console.log(addOverNum(15, 32, 6, 13, 19, 8));
 console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
 
+// 3.
+
+function findMatches(mainArray, ...args) {
+  const matches = []; // Don't change this line
+ for(const num of args){
+   if(mainArray.includes(num)){
+     matches.push(num)
+}
+ }
+  // Change code above this line
+  return matches;
+}
+
+console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7));
+console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2));
+console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41));
+console.log(findMatches([63, 11, 8, 29], 4, 7, 16));
+
+// 4
+
+const bookShelf = {
+  // Change code below this line
+  books: ["The last kingdom", "The guardian of dreams"],
+  getBooks() {
+    return "Returning all books";
+  },
+  addBook(bookName) {
+    return `Adding book ${bookName}`;
+  },
+  removeBook(bookName){
+    return `Deleting book ${bookName}`
+  },
+  updateBook(oldName, newName){
+   return `Updating book ${oldName} to ${newName}`
+    
+  }
+};
+
+bookShelf.addBook("Haze");
+bookShelf.removeBook("Red sunset");
+bookShelf.updateBook("Sands of dune", "Dune");
+
+5.

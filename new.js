@@ -80,4 +80,16 @@ bookShelf.addBook("Haze");
 bookShelf.removeBook("Red sunset");
 bookShelf.updateBook("Sands of dune", "Dune");
 
-5.
+// 5.
+
+// const bookShelf = {
+//   books: ["The last kingdom", "Haze", "The guardian of dreams"],
+//   updateBook(oldName, newName) {
+//     // Change code below this line
+//         const indexOfBook = this.books.indexOf(oldName);
+//  if(indexOfBook !== -1){
+//    this.books.splice(indexOfBook, 1, newName)
+//    return `Updating book ${oldName} to ${newName}`
+//  }   
+// }
+// }

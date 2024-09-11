@@ -197,3 +197,17 @@ const atTheOldToad = {
 
 // atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion");
 // console.log(atTheOldToad.getPotions()); // Updating the potion name
+
+
+
+9.
+
+function makePizza() {
+  return "Your pizza is being prepared, please wait.";
+}
+// Change code below this line
+
+const result = makePizza();
+const pointer = makePizza;
+
+

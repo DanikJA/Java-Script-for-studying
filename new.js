@@ -399,4 +399,10 @@ const calculateTotal = (quantity, pricePerItem) => {
   return quantity * pricePerItem;
 }
 
+17.
+
+// Change code below this line
+const calculating = (quantity, pricePerItem) => quantity * pricePerItem;{
+};
+
 

@@ -1654,3 +1654,25 @@ console.log(eachElementInThirdIsOdd);
 
 // const act = isEveryUserActive(users);
 // console.log(act);
+
+
+
+// 39
+
+
+// const firstArray = [26, 94, 36, 18];
+// const secondArray = [17, 61, 23];
+// const thirdArray = [17, 26, 94, 61, 36, 23, 18];
+// // Change below this line
+
+// const anyElementInFirstIsEven = firstArray.some(firstArr => firstArr % 2 === 0);
+// const anyElementInFirstIsOdd = firstArray.some(firstArr => firstArr % 2 !== 0);
+
+// const anyElementInSecondIsEven = secondArray.some(secArr => secArr % 2 === 0);
+// const anyElementInSecondIsOdd = secondArray.some(secArr => secArr % 2 !== 0);
+
+// const anyElementInThirdIsEven = thirdArray.some(thirdArr => thirdArr % 2 === 0);
+// const anyElementInThirdIsOdd = thirdArray.some(thirdArr => thirdArr % 2 !== 0);
+
+
+// 40

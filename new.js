@@ -1740,6 +1740,7 @@ console.log(eachElementInThirdIsOdd);
 //     balance: 1498,
 //     gender: "male"
 //   },
+
 //   {
 //     name: "Sheree Anthony",
 //     email: "shereeanthony@kog.com",

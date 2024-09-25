@@ -2230,20 +2230,40 @@ console.log(alphabeticalAuthors);
 
 
 
-const pizzaPalaces = {
-  pizzas: ["Supercheese", "Smoked", "Four meats"],
-  // Change code below this line
-  checkPizza(pizzaName) {
-    return this.pizzas.includes(pizzaName);
-  },
-  order(pizzaName) {
-    const isPizzaAvailable = this.checkPizza(pizzaName);
+// const pizzaPalaces = {
+//   pizzas: ["Supercheese", "Smoked", "Four meats"],
+//   // Change code below this line
+//   checkPizza(pizzaName) {
+//     return this.pizzas.includes(pizzaName);
+//   },
+//   order(pizzaName) {
+//     const isPizzaAvailable = this.checkPizza(pizzaName);
 
-    if (!isPizzaAvailable) {
-      return `Sorry, there is no pizza named «${pizzaName}»`;
-    }
+//     if (!isPizzaAvailable) {
+//       return `Sorry, there is no pizza named «${pizzaName}»`;
+//     }
 
-    return `Order accepted, preparing «${pizzaName}» pizza`;
-  },
-  // Change code above this line
+//     return `Order accepted, preparing «${pizzaName}» pizza`;
+//   },
+//   // Change code above this line
+// };
+
+
+
+const parent = {
+  name: "Stacey",
+  surname: "Moore",
+  age: 54,
+  heritage: "Irish",
 };
+// Change code below this line
+
+const child = Object.create(parent);
+
+// Change code above this line
+child.name = "Jason";
+child.age = 27;
+
+
+console.log(parent);
+console.log(child);

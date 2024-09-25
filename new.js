@@ -2292,3 +2292,8 @@ console.log(child);
 // console.log(ancestor);
 // console.log(parent);
 // console.log(child);
+
+
+class Car{};
+
+const user = new Car();

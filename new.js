@@ -2297,3 +2297,15 @@ console.log(child);
 class Car{};
 
 const user = new Car();
+
+
+
+// class Car {
+//   // Change code below this line
+// constructor(brand,model,price){
+//   this.brand = brand;
+//   this.model = model;
+//   this.price = price;
+// }
+// }
+

@@ -2361,3 +2361,26 @@ const user = new Car();
 // console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"]
 // storage.removeItem("Prolonger");
 // console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
+
+
+
+// 52.
+
+
+// class Car {
+// #brand
+//   constructor({ brand, model, price }) {
+//     this.#brand = brand;
+//     this.model = model;
+//     this.price = price;
+//   }
+  
+//  getBrand(){
+//   return this.#brand 
+//  }
+
+// changeBrand(newBrand){
+//   this.#brand = newBrand;
+// }
+  
+// }

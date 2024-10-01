@@ -2367,8 +2367,9 @@ const user = new Car();
 // 52.
 
 
-// class Car {
+// class Car  {
 // #brand
+
 //   constructor({ brand, model, price }) {
 //     this.#brand = brand;
 //     this.model = model;
@@ -2386,7 +2387,7 @@ const user = new Car();
 // }
 
 
-// 53
+53
 
 
     class Storage {

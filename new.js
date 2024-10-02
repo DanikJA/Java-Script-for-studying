@@ -9,9 +9,6 @@
 //   return total;
 // }
 
-
-
-
 // console.log(add(15, 27));
 // console.log(add(12, 4, 11, 48));
 // console.log(add(32, 6, 13, 19, 8));
@@ -2364,28 +2361,6 @@ const user = new Car();
 
 
 
-// 52.
-
-
-// class Car  {
-// #brand
-
-//   constructor({ brand, model, price }) {
-//     this.#brand = brand;
-//     this.model = model;
-//     this.price = price;
-//   }
-  
-//  getBrand(){
-//   return this.#brand 
-//  }
-
-// changeBrand(newBrand){
-//   this.#brand = newBrand;
-// }
-  
-// }
-
 
 53
 
@@ -2497,7 +2472,6 @@ console.log(audi.price); // 49000
 
 
 // 54
-
 
 // class Car {
 //   static #MAX_PRICE = 50000;
